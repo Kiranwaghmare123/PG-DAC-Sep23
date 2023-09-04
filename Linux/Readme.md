@@ -133,6 +133,7 @@ Q1. Differentiate between Linux and Unix OS.
 
 Q2. Design Mahabharata Family tree as follows for Linux directories
 
-![image](https://github.com/Kiranwaghmare123/PG-DAC-Sep23/assets/72081819/0ece836c-99af-4687-b55b-bb57214afdc5)
+![image](https://github.com/Kiranwaghmare123/PG-DAC-Sep23/assets/72081819/a2f64e52-9fd5-4b44-8829-295a3b343fbe)
+
 
 
