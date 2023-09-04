@@ -1,12 +1,10 @@
 kiran@DESKTOP-OTNV7G1:~$ ls
 Mar23     abc.txt  code      details.txt   fruits      name        nothello.txt  test      test1.txt
 abc.java  bye.txt  demo.txt  files.tar.gz  hello2.txt  names1.csv  scripts       test1.sh
-kiran@DESKTOP-OTNV7G1:~$ clear
-kiran@DESKTOP-OTNV7G1:~$ ls
-Mar23     abc.txt  code      details.txt   fruits      name        nothello.txt  test      test1.txt
-abc.java  bye.txt  demo.txt  files.tar.gz  hello2.txt  names1.csv  scripts       test1.sh
+
 kiran@DESKTOP-OTNV7G1:~$ date
 Mon Sep  4 16:01:51 IST 2023
+
 kiran@DESKTOP-OTNV7G1:~$ cal
    September 2023
 Su Mo Tu We Th Fr Sa
@@ -18,9 +16,7 @@ Su Mo Tu We Th Fr Sa
 
 kiran@DESKTOP-OTNV7G1:~$ date
 Mon Sep  4 16:02:24 IST 2023
-kiran@DESKTOP-OTNV7G1:~$ date + %a
-date: extra operand ‘%a’
-Try 'date --help' for more information.
+
 kiran@DESKTOP-OTNV7G1:~$ date +%a
 Mon
 kiran@DESKTOP-OTNV7G1:~$ date +%A
@@ -103,23 +99,31 @@ none           346678268 132838480 213839788  39% /run/user
 tmpfs          346678268 132838480 213839788  39% /sys/fs/cgroup
 C:\            346678268 132838480 213839788  39% /mnt/c
 E:\            629144572  93486520 535658052  15% /mnt/e
+
 kiran@DESKTOP-OTNV7G1:~$ free
               total        used        free      shared  buff/cache   available
 Mem:       16546088     8229020     8087716       17720      229352     8183336
 Swap:      43334780      150192    43184588
 kiran@DESKTOP-OTNV7G1:~$ pwd
 /home/kiran
+
 kiran@DESKTOP-OTNV7G1:~$ mkdir Sep23
+
 kiran@DESKTOP-OTNV7G1:~$ ls
 Mar23  abc.java  bye.txt  demo.txt     files.tar.gz  hello2.txt  names1.csv    scripts  test1.sh
 Sep23  abc.txt   code     details.txt  fruits        name        nothello.txt  test     test1.txt
+
 kiran@DESKTOP-OTNV7G1:~$ mkdir a1
+
 kiran@DESKTOP-OTNV7G1:~$ ls
 Mar23  abc.java  code         files.tar.gz  name          scripts   test1.txt
 Sep23  abc.txt   demo.txt     fruits        names1.csv    test
 a1     bye.txt   details.txt  hello2.txt    nothello.txt  test1.sh
+
 kiran@DESKTOP-OTNV7G1:~$ cd a1
+
 kiran@DESKTOP-OTNV7G1:~/a1$ mkdir a2
+
 kiran@DESKTOP-OTNV7G1:~/a1$ ls
 a2
 kiran@DESKTOP-OTNV7G1:~/a1$ cd a2
