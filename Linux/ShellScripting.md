@@ -5,6 +5,7 @@
 	-Read : r		
 	-Write : w		
 	-Execute :x
+![image](https://github.com/Kiranwaghmare123/PG-DAC-Sep23/assets/72081819/187cf774-8823-4bf7-bb4d-af123c84678c)
 
 ## 3 types of levels:
 
@@ -59,6 +60,7 @@ if [[ ( $n -gt 10 ) && ( $n%2 -eq 0 ) ]];
 \>  is greater than, in ASCII alphabetical order
 
 # Shell Scripting
+![image](https://github.com/Kiranwaghmare123/PG-DAC-Sep23/assets/72081819/64b032b7-5c24-4815-b01e-25a797ee85c0)
     
 
 # Program 1:
