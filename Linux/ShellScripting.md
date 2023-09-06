@@ -1,3 +1,66 @@
+# Users & Permissions:
+--------------------
+## 3 types access writes:
+
+	-Read : r		
+	-Write : w		
+	-Execute :x
+
+## 3 types of levels:
+
+	-User : u : owner		
+	-Group : g : each file accessable to given list of users		
+	-Others : o : other user
+
+#shell parameter:
+    $1 - $9 : positional parameter
+    ${10}-${n} : positional parameter can be used as an arguments
+    $0 : name of scripting
+    $* : all the arguments 
+    $@ : (")
+    $$ : PID of scripting
+    $# : number of arguments
+    $? : return code
+
+# Parameters
+    echo "File name: $0"
+    echo "File name: $1"
+    echo "File name: $2"
+    echo "File name: $@"
+    echo "File name: $*"
+    echo "File name: $#"
+
+
+# Arithmetic operator:
+
+-+,-,*,/,%,++,--
+
+# Relational operator:
+
+>,<,==,!=,>=,<=
+
+# Integer comparison:
+
+-eq	is equal to
+-ne	is not equal to
+-gt	is greater than
+-ge	is greater than or equal to
+-lt	is less than
+-le	is less than or equal to
+
+e.g.,
+-eq : [ $a -eq $b ] is not true
+if [[ ( $n -gt 10 ) && ( $n%2 -eq 0 ) ]];
+
+# String Comparison:
+==	is equal to
+!=	is not equal to
+\<	is less than, in ASCII alphabetical order
+\>  is greater than, in ASCII alphabetical order
+
+# Shell Scripting
+    
+
 # Program 1:
 
     #!/bin/bash
