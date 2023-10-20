@@ -53,11 +53,8 @@ These complexities are due to the fact that at each state we have multiple choic
 
 # Backtracking Algorithm Applications
   * To find all Hamiltonian Paths present in a graph.
-  * 
   * To solve the N Queen problem.
-  * 
   * Maze solving problem.
-  * 
   * The Knight's tour problem.
 
 # Recursion and Backtracking
