@@ -7,13 +7,13 @@
   Recursive Case: The part of the function where the function calls itself, working towards reaching the base case.
   Below is a Python code snippet showcasing the usage of a recursive function to calculate the factorial of a number:
 
-  '''
+  
   def factorial(n):
       if n == 1:
           return 1
       else:
           return n * factorial(n-1)
-  '''
+  
 
 # What's happening here? When n isn't 1, the function calls itself with 
  reduced by 1. This keeps happening until 
