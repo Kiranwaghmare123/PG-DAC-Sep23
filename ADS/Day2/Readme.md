@@ -52,17 +52,20 @@ Factorial (O(N!))
 These complexities are due to the fact that at each state we have multiple choices due to which the number of paths increases and sub-trees expand rapidly.
 
 # Backtracking Algorithm Applications
-* To find all Hamiltonian Paths present in a graph.
-* To solve the N Queen problem.
-* Maze solving problem.
-* The Knight's tour problem.
+  * To find all Hamiltonian Paths present in a graph.
+  * 
+  * To solve the N Queen problem.
+  * 
+  * Maze solving problem.
+  * 
+  * The Knight's tour problem.
 
 # Recursion and Backtracking
 ![image](https://github.com/Kiranwaghmare123/PG-DAC-Sep23/assets/72081819/84d4e420-b2f2-4526-a3a1-73b3bb50d65f)
 #### Difference between Recursion and Backtracking: 
-  * In recursion, the function calls itself until it reaches a base case. 
-
-  * In backtracking, we use recursion to explore all the possibilities until we get the best result for the problem.
+    * In recursion, the function calls itself until it reaches a base case. 
+  
+    * In backtracking, we use recursion to explore all the possibilities until we get the best result for the problem.
   
 ![image](https://github.com/Kiranwaghmare123/PG-DAC-Sep23/assets/72081819/f9d72beb-f37f-4f8a-b4cd-991111ef8c15)
 
