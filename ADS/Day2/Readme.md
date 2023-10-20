@@ -21,13 +21,13 @@
  Backtracking is a technique based on algorithm to solve problem. It uses recursive calling to find the solution by building a solution step by step increasing 
  values with time. It removes the solutions that doesn't give rise to the solution of the problem based on the constraints given to solve the problem.
 
-Backtracking algorithm is applied to some specific types of problems,
+* Backtracking algorithm is applied to some specific types of problems,
 
-Decision problem used to find a feasible solution of the problem.
+* Decision problem used to find a feasible solution of the problem.
 
-Optimisation problem used to find the best solution that can be applied.
+* Optimisation problem used to find the best solution that can be applied.
 
-Enumeration problem used to find the set of all feasible solutions of the problem.
+* Enumeration problem used to find the set of all feasible solutions of the problem.
 
 In backtracking problem, the algorithm tries to find a sequence path to the solution which has some small checkpoints from where the problem can backtrack if no feasible solution is found for the problem.
 
@@ -52,17 +52,17 @@ Factorial (O(N!))
 These complexities are due to the fact that at each state we have multiple choices due to which the number of paths increases and sub-trees expand rapidly.
 
 # Backtracking Algorithm Applications
-To find all Hamiltonian Paths present in a graph.
-To solve the N Queen problem.
-Maze solving problem.
-The Knight's tour problem.
+* To find all Hamiltonian Paths present in a graph.
+* To solve the N Queen problem.
+* Maze solving problem.
+* The Knight's tour problem.
 
 # Recursion and Backtracking
 ![image](https://github.com/Kiranwaghmare123/PG-DAC-Sep23/assets/72081819/84d4e420-b2f2-4526-a3a1-73b3bb50d65f)
 #### Difference between Recursion and Backtracking: 
-  In recursion, the function calls itself until it reaches a base case. 
+  * In recursion, the function calls itself until it reaches a base case. 
 
-  In backtracking, we use recursion to explore all the possibilities until we get the best result for the problem.
+  * In backtracking, we use recursion to explore all the possibilities until we get the best result for the problem.
   
 ![image](https://github.com/Kiranwaghmare123/PG-DAC-Sep23/assets/72081819/f9d72beb-f37f-4f8a-b4cd-991111ef8c15)
 
