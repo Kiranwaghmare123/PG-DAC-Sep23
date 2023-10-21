@@ -69,26 +69,7 @@ void insertAfter(Node prev_node,int new_data)
 	prev_node.next = new_node;
 }
 
-void deleteNode(int key)//9
-{
-	Node temp = head, prev = null;
-	if(temp != null && temp.data == key)
-	{
-		head = temp.next;
-		return;
-	}
-	//Last or intermediate
-	while(temp != null && temp.data != key)
-	{
-		prev = temp;
-		temp = temp.next;
-	}
-	if(temp == null)
-	return;
-	prev.next = temp.next;
-	
-	
-}
+
 
 	
 	public static void main(String args[]){
@@ -136,9 +117,7 @@ void deleteNode(int key)//9
 		System.out.println();
 		L1.display();
 		
-		L1.deleteNode(53);
-		System.out.println();
-		L1.display();
+	
 	
 	}
 }
