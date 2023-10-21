@@ -30,6 +30,8 @@
     third = null : third Node is null (n)
 
 
+# Important Interview codes
+
 # Insertion of new node:
 ---------------------------
     1.Insertion at the begining
