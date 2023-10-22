@@ -1,7 +1,7 @@
 # Doubly Linked List:
 	
      A doubly linked list (DLL) is a special type of linked list in which each node contains a pointer to the previous node as well as the next node of the linked list.
-	```
+	
 	SLL:
 	------
   	-Easy implementation
@@ -14,7 +14,7 @@
   	-More memory
   	-Forward and bcakward direction
 	
-	```
+	
 # Node structure for DLL:
 	
 	```
@@ -29,7 +29,7 @@
   			prev = null;
   		}
   	}
-   ```
+  	 ```
 	
 # Operations on DLL:
 	
@@ -47,7 +47,7 @@
 	
 # 1. Insertion at the begining:
 	
- ```
+	 ```
 	void insert(int new_data)
 	{
 		Node new_node = new Node(new_data);
@@ -62,7 +62,7 @@
 	
 # Display the elements of DLL:
 	
- ```
+	 ```
 	void display(Node n)
 	{
 		Node p = null;
@@ -86,7 +86,7 @@
 	
 # 2. Insertion at the end:
 
- ```
+ 	```
 	void append(int new_data)
 	{
 		Node new_node = new Node(new_data);
@@ -111,7 +111,7 @@
 	
 # 3. Insertion in between:
 
- ```
+	 ```
 	insertAfter(Node perv_node, int new_data)
 	{
 		if(prev_node == null)
@@ -131,9 +131,7 @@
 	}
 	```
 # Deletion in DLL:
-	
-   ```
-		void deletenode(Node n)
+ 		void deletenode(Node n)
 		{
 			//base condition
 			if(head == null || n == null)
@@ -153,5 +151,4 @@
 			return;
 			
 			
-		}
- ```
+
