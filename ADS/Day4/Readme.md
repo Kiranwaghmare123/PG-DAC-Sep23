@@ -133,7 +133,7 @@
 # Recursive Deletion in DLL:
 	---------------------------
    ```
-void deletenode(Node n)
+	void deletenode(Node n)
 	{
 		//base condition
 		if(head == null || n == null)
