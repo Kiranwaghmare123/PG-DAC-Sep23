@@ -133,25 +133,25 @@
 # Recursive Deletion in DLL:
 	---------------------------
    ```
-	void deletenode(Node n)
-	{
-		//base condition
-		if(head == null || n == null)
+		void deletenode(Node n)
 		{
+			//base condition
+			if(head == null || n == null)
+			{
+				return;
+			}
+			//deletion at the begining
+			if(head == n)
+				head=n.next;
+				//head.prev=null;
+			// deletion in between two elements
+			if(n.next != null)
+				n.next.prev = n.prev;
+			if(n.prev != null)
+				n.prev.next=n.next;
+			
 			return;
+			
+			
 		}
-		//deletion at the begining
-		if(head == n)
-			head=n.next;
-			//head.prev=null;
-		// deletion in between two elements
-		if(n.next != null)
-			n.next.prev = n.prev;
-		if(n.prev != null)
-			n.prev.next=n.next;
-		
-		return;
-		
-		
-	}
  ```
