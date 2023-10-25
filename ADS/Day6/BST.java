@@ -87,44 +87,7 @@ void printPostorder(Node root)
 		root = insertdata(root, key);
 	}
 	
-	Node deletedata(Node root,int key)
-	{
-		if(root == null)
-			return root;
-		if(key < root.data)
-			root.left = deletedata(root.left, key);
-		else if(key > root.data)
-			root.right = deletedata(root.right, key);
-		else{
-			if(root.left == null)
-				return root.right;
-			else if(root.right == null)
-				return root.left;
-			
-			//case 3
-			root.data = minvalue(root.right);
-			
-			root.right = deletedata(root.right, root.data);
-		}
-		return root;
-	}
 	
-	
-	int minvalue(Node root)
-	{
-		int x =root.data;
-		while(root.left !=null)
-		{
-			x = root.left.data;
-			root =root.left;
-		}
-		return x;
-	}
-	
-	void delete(int key)
-	{
-		root =deletedata(root, key);
-	}
 	
 	
 	public static void main(String args[]){
@@ -150,23 +113,6 @@ void printPostorder(Node root)
 		System.out.println("Postorder");
 		t1.Postorder();
 		
-		//case 1: Deletion with leaf node
-		t1.delete(9);
-		System.out.println();
-		System.out.println("Inorder");
-		t1.Inorder();
-		
-		//case 2: Deletion with sigle child node
-		t1.delete(5);
-		System.out.println();
-		System.out.println("Inorder");
-		t1.Inorder();
-		
-		//case 3: Deletion with two children
-		t1.delete(25);
-		System.out.println();
-		System.out.println("Inorder");
-		t1.Inorder();
 		
 		
 		
