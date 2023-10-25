@@ -6,9 +6,10 @@ Topics:
 # Day 3: Linked List
 # Day 4: DLL
 # Day 5: AOA + Tree
-# Day 6: 
-# Day 7: 
-# Day 8: 
-# Day 9:
-# Day 10: 
+# Day 6: BST + Heap
+# Day 7: Heap + Stack
+# Day 8: Stack + Queue
+# Day 9: Searching + Sorting
+# Day 10: Graph
+
 
