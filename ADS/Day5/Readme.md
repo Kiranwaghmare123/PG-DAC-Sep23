@@ -45,6 +45,9 @@
 
   # Order of Time complexity:
 
+  ![image](https://github.com/Kiranwaghmare123/PG-DAC-Sep23/assets/72081819/ea3e7028-27ed-42ff-9e84-d4bc2bd7bb41)
+
+
       O(1) < O( log(n) ) < O(n) < O( n log(n) ) < O ( n2 ) < O ( 2n ) < O ( n!)
 
   ![image](https://github.com/Kiranwaghmare123/PG-DAC-Sep23/assets/72081819/45f8db52-84e3-4c47-bf40-c05066b00d93)
@@ -54,6 +57,9 @@
   ![image](https://github.com/Kiranwaghmare123/PG-DAC-Sep23/assets/72081819/fa336cc4-8c63-4d50-b27c-f6f15963dffc)
 
   ![image](https://github.com/Kiranwaghmare123/PG-DAC-Sep23/assets/72081819/4b61fe58-56bb-45cc-ab0f-96aef6cb8d06)
+
+  ![image](https://github.com/Kiranwaghmare123/PG-DAC-Sep23/assets/72081819/5479bda2-4c55-417b-82fe-6284ba10f120)
+
 
 
 
